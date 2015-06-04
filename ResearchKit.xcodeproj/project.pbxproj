@@ -363,6 +363,19 @@
 		B1A860F71A9693C400EA57B7 /* consent_07@3x.m4v in Resources */ = {isa = PBXBuildFile; fileRef = B1A860E91A9693C400EA57B7 /* consent_07@3x.m4v */; };
 		B1C0F4E41A9BA65F0022C153 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1C0F4E11A9BA65F0022C153 /* Localizable.strings */; };
 		B1C7955E1A9FBF04007279BA /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C7955D1A9FBF04007279BA /* HealthKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B5EAE93C1B20B50B0062006D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAE9281B20B50B0062006D /* AppDelegate.swift */; };
+		B5EAE93D1B20B50B0062006D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EAE9291B20B50B0062006D /* LaunchScreen.xib */; };
+		B5EAE93E1B20B50B0062006D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EAE92B1B20B50B0062006D /* Main.storyboard */; };
+		B5EAE93F1B20B50B0062006D /* Camelot.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = B5EAE92D1B20B50B0062006D /* Camelot.entitlements */; };
+		B5EAE9401B20B50B0062006D /* ConsentDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAE92E1B20B50B0062006D /* ConsentDocument.swift */; };
+		B5EAE9411B20B50B0062006D /* ConsentTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAE92F1B20B50B0062006D /* ConsentTask.swift */; };
+		B5EAE9421B20B50B0062006D /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAE9301B20B50B0062006D /* HealthManager.swift */; };
+		B5EAE9431B20B50B0062006D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EAE9311B20B50B0062006D /* Images.xcassets */; };
+		B5EAE9441B20B50B0062006D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5EAE9321B20B50B0062006D /* Info.plist */; };
+		B5EAE9451B20B50B0062006D /* SurveyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAE9331B20B50B0062006D /* SurveyTask.swift */; };
+		B5EAE9461B20B50B0062006D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAE9341B20B50B0062006D /* ViewController.swift */; };
+		B5EAE9471B20B50B0062006D /* CamelotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAE93A1B20B50B0062006D /* CamelotTests.swift */; };
+		B5EAE9481B20B50B0062006D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5EAE93B1B20B50B0062006D /* Info.plist */; };
 		B8760F2B1AFBEFB0007FA16F /* ORKScaleRangeDescriptionLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B8760F291AFBEFB0007FA16F /* ORKScaleRangeDescriptionLabel.h */; };
 		B8760F2C1AFBEFB0007FA16F /* ORKScaleRangeDescriptionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8760F2A1AFBEFB0007FA16F /* ORKScaleRangeDescriptionLabel.m */; };
 		BC13CE391B0660220044153C /* ORKNavigableOrderedTask.h in Headers */ = {isa = PBXBuildFile; fileRef = BC13CE371B0660220044153C /* ORKNavigableOrderedTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -408,6 +421,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = B183A4731A8535D100C76870;
 			remoteInfo = OpenResearchKit;
+		};
+		B5EAE94B1B20B50B0062006D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EAE9351B20B50B0062006D /* Camelot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5FC19631B176516004CBB86;
+			remoteInfo = Camelot;
+		};
+		B5EAE94D1B20B50B0062006D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EAE9351B20B50B0062006D /* Camelot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5FC19781B176517004CBB86;
+			remoteInfo = CamelotTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -797,6 +824,20 @@
 		B1C0F4E21A9BA65F0022C153 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B1C1DE4F196F541F00F75544 /* ResearchKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResearchKit.h; sourceTree = "<group>"; };
 		B1C7955D1A9FBF04007279BA /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		B5EAE9281B20B50B0062006D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5EAE92A1B20B50B0062006D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5EAE92C1B20B50B0062006D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5EAE92D1B20B50B0062006D /* Camelot.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Camelot.entitlements; sourceTree = "<group>"; };
+		B5EAE92E1B20B50B0062006D /* ConsentDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentDocument.swift; sourceTree = "<group>"; };
+		B5EAE92F1B20B50B0062006D /* ConsentTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsentTask.swift; sourceTree = "<group>"; };
+		B5EAE9301B20B50B0062006D /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		B5EAE9311B20B50B0062006D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5EAE9321B20B50B0062006D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EAE9331B20B50B0062006D /* SurveyTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyTask.swift; sourceTree = "<group>"; };
+		B5EAE9341B20B50B0062006D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5EAE9351B20B50B0062006D /* Camelot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Camelot.xcodeproj; sourceTree = "<group>"; };
+		B5EAE93A1B20B50B0062006D /* CamelotTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamelotTests.swift; sourceTree = "<group>"; };
+		B5EAE93B1B20B50B0062006D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8760F291AFBEFB0007FA16F /* ORKScaleRangeDescriptionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKScaleRangeDescriptionLabel.h; sourceTree = "<group>"; };
 		B8760F2A1AFBEFB0007FA16F /* ORKScaleRangeDescriptionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKScaleRangeDescriptionLabel.m; sourceTree = "<group>"; };
 		BC13CE371B0660220044153C /* ORKNavigableOrderedTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKNavigableOrderedTask.h; sourceTree = "<group>"; };
@@ -886,6 +927,7 @@
 		3FFF18341829DB1D00167070 = {
 			isa = PBXGroup;
 			children = (
+				B5EAE9261B20B50B0062006D /* Camelot */,
 				B11DF3B21AA109C8009E76D2 /* docs */,
 				86B623AF19520B770074CD3C /* ResearchKit */,
 				86CC8EA61AC09383001CCD89 /* ResearchKitTests */,
@@ -1698,6 +1740,53 @@
 			path = Localized;
 			sourceTree = "<group>";
 		};
+		B5EAE9261B20B50B0062006D /* Camelot */ = {
+			isa = PBXGroup;
+			children = (
+				B5EAE9271B20B50B0062006D /* Camelot */,
+				B5EAE9351B20B50B0062006D /* Camelot.xcodeproj */,
+				B5EAE9391B20B50B0062006D /* CamelotTests */,
+			);
+			name = Camelot;
+			path = ../../../Desktop/Camelot;
+			sourceTree = "<group>";
+		};
+		B5EAE9271B20B50B0062006D /* Camelot */ = {
+			isa = PBXGroup;
+			children = (
+				B5EAE9281B20B50B0062006D /* AppDelegate.swift */,
+				B5EAE9291B20B50B0062006D /* LaunchScreen.xib */,
+				B5EAE92B1B20B50B0062006D /* Main.storyboard */,
+				B5EAE92D1B20B50B0062006D /* Camelot.entitlements */,
+				B5EAE92E1B20B50B0062006D /* ConsentDocument.swift */,
+				B5EAE92F1B20B50B0062006D /* ConsentTask.swift */,
+				B5EAE9301B20B50B0062006D /* HealthManager.swift */,
+				B5EAE9311B20B50B0062006D /* Images.xcassets */,
+				B5EAE9321B20B50B0062006D /* Info.plist */,
+				B5EAE9331B20B50B0062006D /* SurveyTask.swift */,
+				B5EAE9341B20B50B0062006D /* ViewController.swift */,
+			);
+			path = Camelot;
+			sourceTree = "<group>";
+		};
+		B5EAE9361B20B50B0062006D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EAE94C1B20B50B0062006D /* Camelot.app */,
+				B5EAE94E1B20B50B0062006D /* CamelotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5EAE9391B20B50B0062006D /* CamelotTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5EAE93A1B20B50B0062006D /* CamelotTests.swift */,
+				B5EAE93B1B20B50B0062006D /* Info.plist */,
+			);
+			path = CamelotTests;
+			sourceTree = "<group>";
+		};
 		BC4194261AE8451F00073D6B /* Misc */ = {
 			isa = PBXGroup;
 			children = (
@@ -2052,6 +2141,12 @@
 			mainGroup = 3FFF18341829DB1D00167070;
 			productRefGroup = 3FFF183E1829DB1D00167070 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B5EAE9361B20B50B0062006D /* Products */;
+					ProjectRef = B5EAE9351B20B50B0062006D /* Camelot.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B183A4731A8535D100C76870 /* ResearchKit */,
@@ -2060,6 +2155,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B5EAE94C1B20B50B0062006D /* Camelot.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Camelot.app;
+			remoteRef = B5EAE94B1B20B50B0062006D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B5EAE94E1B20B50B0062006D /* CamelotTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CamelotTests.xctest;
+			remoteRef = B5EAE94D1B20B50B0062006D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		86CC8E981AC09332001CCD89 /* Resources */ = {
@@ -2075,17 +2187,23 @@
 			files = (
 				B1A860EE1A9693C400EA57B7 /* consent_05@2x.m4v in Resources */,
 				86C40DFA1A8D7C5C00081FAC /* MovieTintShader.fsh in Resources */,
+				B5EAE93F1B20B50B0062006D /* Camelot.entitlements in Resources */,
 				B1A860EA1A9693C400EA57B7 /* consent_01@2x.m4v in Resources */,
 				B1A860F31A9693C400EA57B7 /* consent_03@3x.m4v in Resources */,
 				B1A860F11A9693C400EA57B7 /* consent_01@3x.m4v in Resources */,
 				B1A860F71A9693C400EA57B7 /* consent_07@3x.m4v in Resources */,
 				B1A860F21A9693C400EA57B7 /* consent_02@3x.m4v in Resources */,
+				B5EAE9481B20B50B0062006D /* Info.plist in Resources */,
 				B1A860EB1A9693C400EA57B7 /* consent_02@2x.m4v in Resources */,
 				B1A860F61A9693C400EA57B7 /* consent_06@3x.m4v in Resources */,
+				B5EAE9441B20B50B0062006D /* Info.plist in Resources */,
 				B1A860F01A9693C400EA57B7 /* consent_07@2x.m4v in Resources */,
 				B1A860EF1A9693C400EA57B7 /* consent_06@2x.m4v in Resources */,
+				B5EAE93E1B20B50B0062006D /* Main.storyboard in Resources */,
 				B1A860EC1A9693C400EA57B7 /* consent_03@2x.m4v in Resources */,
 				B1A860F41A9693C400EA57B7 /* consent_04@3x.m4v in Resources */,
+				B5EAE9431B20B50B0062006D /* Images.xcassets in Resources */,
+				B5EAE93D1B20B50B0062006D /* LaunchScreen.xib in Resources */,
 				B1A860ED1A9693C400EA57B7 /* consent_04@2x.m4v in Resources */,
 				B17FE7FD1A8DBE7C00BF9C28 /* Artwork.xcassets in Resources */,
 				B1C0F4E41A9BA65F0022C153 /* Localizable.strings in Resources */,
@@ -2156,6 +2274,7 @@
 			files = (
 				86C40C341A8D7C5C00081FAC /* ORKFitnessStepViewController.m in Sources */,
 				86C40E2E1A8D7C5C00081FAC /* ORKVisualConsentStep.m in Sources */,
+				B5EAE9411B20B50B0062006D /* ConsentTask.swift in Sources */,
 				86C40CA61A8D7C5C00081FAC /* ORKLocationRecorder.m in Sources */,
 				86C40CB61A8D7C5C00081FAC /* ORKTouchRecorder.m in Sources */,
 				B12EA0161B0D73A500F9F554 /* ORKToneAudiometryPracticeStep.m in Sources */,
@@ -2175,6 +2294,7 @@
 				B8760F2C1AFBEFB0007FA16F /* ORKScaleRangeDescriptionLabel.m in Sources */,
 				86C40D821A8D7C5C00081FAC /* ORKSelectionSubTitleLabel.m in Sources */,
 				86C40DCC1A8D7C5C00081FAC /* ORKTaskViewController.m in Sources */,
+				B5EAE9461B20B50B0062006D /* ViewController.swift in Sources */,
 				86C40E061A8D7C5C00081FAC /* ORKConsentLearnMoreViewController.m in Sources */,
 				86C40D7A1A8D7C5C00081FAC /* ORKScaleSlider.m in Sources */,
 				86C40C801A8D7C5C00081FAC /* ORKActiveStep.m in Sources */,
@@ -2217,9 +2337,11 @@
 				D458520B1AF6CCFA00A2DE13 /* ORKImageCaptureCameraPreviewView.m in Sources */,
 				86C40E1A1A8D7C5C00081FAC /* ORKConsentSection.m in Sources */,
 				86C40C241A8D7C5C00081FAC /* ORKCountdownStep.m in Sources */,
+				B5EAE9471B20B50B0062006D /* CamelotTests.swift in Sources */,
 				86C40CA21A8D7C5C00081FAC /* ORKHealthQuantityTypeRecorder.m in Sources */,
 				86C40DC01A8D7C5C00081FAC /* ORKTableViewCell.m in Sources */,
 				BC41942A1AE8453A00073D6B /* ORKObserver.m in Sources */,
+				B5EAE93C1B20B50B0062006D /* AppDelegate.swift in Sources */,
 				86C40C681A8D7C5C00081FAC /* CMAccelerometerData+ORKJSONDictionary.m in Sources */,
 				86C40C701A8D7C5C00081FAC /* CMMotionActivity+ORKJSONDictionary.m in Sources */,
 				147503B01AEE8071004B17F3 /* ORKAudioGenerator.m in Sources */,
@@ -2272,6 +2394,7 @@
 				86C40E0E1A8D7C5C00081FAC /* ORKConsentReviewStepViewController.m in Sources */,
 				86C40E261A8D7C5C00081FAC /* ORKEAGLMoviePlayerView.m in Sources */,
 				86C40CC21A8D7C5C00081FAC /* ORKCompletionStep.m in Sources */,
+				B5EAE9451B20B50B0062006D /* SurveyTask.swift in Sources */,
 				86C40C301A8D7C5C00081FAC /* ORKFitnessStep.m in Sources */,
 				86C40C501A8D7C5C00081FAC /* ORKTappingContentView.m in Sources */,
 				86C40CEC1A8D7C5C00081FAC /* ORKAnswerTextField.m in Sources */,
@@ -2279,11 +2402,13 @@
 				86C40DD81A8D7C5C00081FAC /* ORKUnitLabel.m in Sources */,
 				86C40D361A8D7C5C00081FAC /* ORKHelpers.m in Sources */,
 				86C40C181A8D7C5C00081FAC /* ORKAudioContentView.m in Sources */,
+				B5EAE9421B20B50B0062006D /* HealthManager.swift in Sources */,
 				86C40C8E1A8D7C5C00081FAC /* ORKActiveStepViewController.m in Sources */,
 				B183A5011A8535D100C76870 /* (null) in Sources */,
 				86C40CE61A8D7C5C00081FAC /* ORKAnswerFormat.m in Sources */,
 				25ECC0961AFBD68300F3D63B /* ORKDeviceMotionReactionTimeStep.m in Sources */,
 				BC13CE3A1B0660220044153C /* ORKNavigableOrderedTask.m in Sources */,
+				B5EAE9401B20B50B0062006D /* ConsentDocument.swift in Sources */,
 				B11C54A11A9EF4A700265E61 /* ORKConsentSharingStepViewController.m in Sources */,
 				86C40E161A8D7C5C00081FAC /* ORKConsentSection+AssetLoading.m in Sources */,
 				86C40DA81A8D7C5C00081FAC /* ORKSurveyAnswerCellForImageSelection.m in Sources */,
@@ -2369,6 +2494,22 @@
 				B1B34A061AABBCCDDEEFFAAA /* no */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B5EAE9291B20B50B0062006D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EAE92A1B20B50B0062006D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B5EAE92B1B20B50B0062006D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EAE92C1B20B50B0062006D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
